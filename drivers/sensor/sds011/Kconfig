@@ -1,0 +1,5 @@
+config SDS011
+	bool "SDS011 particulate matter sensor"
+	depends on SERIAL
+	help
+	  Enable driver for SDS011 particulate matter sensor.
